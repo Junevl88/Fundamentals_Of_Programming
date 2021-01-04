@@ -1,0 +1,28 @@
+def main():
+
+	message = "If you want it, go get it."
+	
+	codeMessage = []
+	
+	for m in message:
+		codeMessage.append(ord(m))
+		
+	print("The encoded message:"),
+	print("")
+	for c in codeMessage: 
+		print(c),
+	
+	print("")
+	print("")
+	print("The message in Binary:"),
+	print("")
+	for c in codeMessage:
+       print bin(c),
+		
+	print("")
+	print("")
+	print("The decoded message:"),
+	print("")
+	print(message)
+	
+main()
